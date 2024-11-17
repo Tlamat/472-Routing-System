@@ -1,0 +1,45 @@
+Input file: proj5.rom
+Configuration file: proj5.cfg
+Created by Paradigm LOCATE 6.00.145 on Wed Aug 20 20:36:27 2008
+Command line options: c:\paradigm\bin\locate.exe proj5.rom 
+
+Memory Address Map for Program proj5
+
+ Start     Stop      Length   Segment                Class               
+ 001000H   00160FH   00610H   _DATA                  DATA            
+ 001610H   001613H   00004H   _CVTSEG                DATA            
+ 001614H   001619H   00006H   _SCNSEG                DATA            
+ 001620H   0083A9H   06D8AH   _BSS                   BSS             
+ 0083B0H   0083B0H   00000H   _NVRAM                 NVRAM           
+ 0083B0H   0083BFH   00010H   _EDATA                 EDATA           
+ 0083C0H   0083C0H   00000H   _NHEAP                 STACK           
+ 0083C0H   0087BFH   00400H   _STACK                 STACK           
+ 0087C0H   0087CFH   00010H   _ESTACK                STACK           
+ 0087D0H   0087D0H   00000H   _BFD                   FAR_DATA        
+ 0087D0H   0087DFH   00010H   _EFD                   ENDFAR_DATA     
+ 0087E0H   0087E0H   00000H   _BFB                   FAR_BSS         
+ 0087E0H   0087EFH   00010H   _EFB                   ENDFAR_BSS      
+ 0087F0H   0087F0H   00000H   _FARHEAP               FAR_HEAP        
+ 0087F0H   0087FFH   00010H   _EFH                   ENDFAR_HEAP     
+ 010000H   01522AH   0522BH   _TEXT                  CODE            
+ 015230H   0157E1H   005B2H   E87_PROG               CODE            
+ 0157F0H   017F5BH   0276CH   EMU_PROG               CODE            
+ 017F60H   017F71H   00012H   _INIT_                 INITDATA        
+ 017F72H   017F72H   00000H   _INITEND_              INITDATA        
+ 017F80H   017F80H   00000H   _EXIT_                 EXITDATA        
+ 017F80H   017F8FH   00010H   _EXITEND_              EXITDATA        
+ 017F90H   017F90H   00000H   _BFC                   FAR_CONST       
+ 017F90H   017F9FH   00010H   _EFC                   ENDFAR_CONST    
+ 017FA0H   017FA0H   00000H   _RD                    ROMDATA         
+ 017FA0H   0185AFH   00610H   _DATA                  ROMDATA         
+ 0185B0H   0185B3H   00004H   _CVTSEG                ROMDATA         
+ 0185B4H   0185B9H   00006H   _SCNSEG                ROMDATA         
+ 0185C0H   0185CFH   00010H   _ERD                   ENDROMDATA      
+ 0185D0H   0185D0H   00000H   _BRFD                  ROMFARDATA      
+ 0185D0H   0185D0H   00000H   _BFD                   ROMFARDATA      
+ 0185D0H   0185DFH   00010H   _ERFD                  ENDROMFARDATA   
+
+Entry point:   1000:0000
+Initial stack: 0100:73C0
+
+

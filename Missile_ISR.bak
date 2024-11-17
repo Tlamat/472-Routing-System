@@ -1,0 +1,15 @@
+#include "td40.h"
+#include "boolean.h"
+#include <stdio.h>
+
+extern newBool jamLeft;
+extern newBool jamFwd;
+extern newBool jamRight;
+extern int missile;
+
+void far interrupt Missile_ISR(void) {
+   missile++;
+
+	// Issue EOI
+   outport(0xFF22, 0x8000);
+}
